@@ -1,0 +1,69 @@
+body{
+    background-color: #ecf0f1;
+}
+.clicked {
+    color: #89e7e7;
+    transition: .5s ease-in-out;
+}
+.jsclicked {
+    color: rgb(59, 196, 196);
+    transition: 1.5s ease-in-out;
+}
+.jsclicked1 {
+    color: #21a2c2;
+    transition: 1.5s ease-in-out;
+}
+.jsclicked2 {
+    color: #7923a1;
+    transition: 1.5s ease-in-out;
+}
+.form, .greetings {
+    display: none;
+}
+.showing {
+    display: block;
+}
+.js-clock {
+    transition: .5s ease-in-out;
+}
+.bgImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    animation: fadein 1.5s linear;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.main {
+    height: 700px;
+    width: 100%;
+}
+.js-clock {
+    position: absolute;
+    font-size: 35px;
+    top: 22%;
+    left: 40%;
+    text-shadow: 1.2px 1.2px 1px #000;
+}
+.formname {
+    position: absolute;
+    top: 45%;
+    left: 43%;
+}
+.greet {
+    font-size: 30px;
+    position: absolute;
+    top: 36%;
+    left: 38%;
+    text-shadow: 1.2px 1.2px 1px #000;
+}

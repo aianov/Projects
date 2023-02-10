@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js"></script>
+    <title>Blackjack Task</title>
+</head>
+<body>
+    <h1>Дилер: <span id="dealer-sum"></span></h1>
+    <div class="dealer-cards" class="anima">
+        <img id="hidden" src="./cards/BACK.png">
+    </div>
+
+    <h1>Вы: <span id="player-sum"></span></h1>
+    <div class="relative">
+    <div class="your-cards" class="anima"><p></p></div>
+    </div>
+    <br>
+    <div class="buttons">
+    <button id="hit" class="buttxD">Запрос</button>
+    <button id="stay" class="buttxD">Раскрыться</button>
+    <button id="reload" class="buttxD" class="buttjs" onclick="clickHandler()">Новая игра <br>(по сути тупо reload страницы)</button>
+    </div>
+    <div class="res">
+        <p id="results"></p>
+    </div>
+</body>
+</html>

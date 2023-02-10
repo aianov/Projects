@@ -1,0 +1,131 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, em, img,
+small, strong, b, u, i, ol, ul, li, form, 
+label, table, caption, tr, th, td, canvas, 
+footer, header, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+	background: url(./cards/tableBackground.png) center center no-repeat  fixed;
+    background-size: cover;
+    margin-top: 50px;
+}
+body h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.dealer-cards img {
+    height: 200px;
+    width: 130px;
+    margin: 1px;
+}
+.your-cards img {
+    height: 200px;
+    width: 130px;
+    margin: 1px;
+}
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#stay {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    align-items: flex-end;
+}
+#reload {
+    background-color: black;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.2s all;
+    border: 2px solid white;
+    height: 50px;
+    color: white;
+}
+#hit {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.2s all;
+    font-size: 15px;
+}
+#stay {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: 0.2s all;
+    font-size: 15px;
+}
+.atext {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+.buttxD {
+    margin-left: 5px;
+}
+#reload:hover {
+    box-shadow: 1px 1px 15px 0.5px black;
+    transition: 0.2s all;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    margin-bottom: 4px;
+}
+#stay:hover {
+    box-shadow: 1px 1px 15px 0.5px black;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.2s all;
+    margin-bottom: 4px;
+}
+#hit:hover {
+    box-shadow: 1px 1px 15px 0.5px black;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.2s all;
+    margin-bottom: 4px;
+}
+h1 {
+    text-shadow: 2px 2px black;
+}
+#results {
+    text-shadow: 2px 2px black;
+}
+.your-cards {
+    display: flex;
+    justify-content: center;
+}
+.dealer-cards {
+    display: flex;
+    justify-content: center;
+}
+.res {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 25px;
+}

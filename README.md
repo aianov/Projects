@@ -7,9 +7,9 @@
 		<th><h1>My projects</h1></th>
 </table>
 <ul>
-    <li><a href="https://github.com/aianov/BlackJackDulat" target="_blank">BlackJack game</li>
-    <li>Soon...</li>
-    <li>Soon...</li>
+    <li><a href="https://danime-eight.vercel.app/" target="_blank">:Danime anime watch site!</li>
+	    <li><a href="https://github.com/aianov/BlackJackDulat" target="_blank">BlackJack game</li>
+    <li>Riman study site, soon...</li>
 </ul>
 <p align="center">
 <a href="https://discord.gg/bVGYrSmU" target="_blank">
